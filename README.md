@@ -15,7 +15,24 @@ We used Ubuntu 14.04.2 during this projects implementation. You must also instal
 
 > make clean
 
+# Parsec Setup
+  
+  * [Execute] source /parsec\_path/env.sh
+  * [Build] blackscholes, canneal, and x264
+  * [Example] parsecmgmt -a build -p blackscholes
+
+# Parsec Tests
+ 
+  [Execute] ./batch.sh
+  >[Output ] Located in parsec\_logs and plots..
+
+# Parsec Plot 
+
+  [Execute] ./plotAll.sh
+  >[Output ] Located in plots
+
+# About the collected Data
+
 # Issues
 
 Not all intel processors have RAPL features. If your processor is enabled then you must install required tools for RAPL and then use 'sudo modprobe msr'.
-
